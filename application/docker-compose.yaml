@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  cv:
+    container_name: cv-service
+    build: .
+    # environment:
+    #   - MYSQL_USER="dev"
+    #   - MYSQL_PASSWORD="Password123#@!"
+    #   - MYSQL_HOST="10.125.14.43"
+    #   - MYSQL_PORT="64793"
+    #   - MYSQL_SCHEMA="eskill"
+    #   - PSQL_USER=postgres
+    #   - PSQL_PASSWORD=postgres
+    #   - PSQL_HOST=3.111.104.213
+    #   - PSQL_PORT=5432
+    #   - PSQL_SCHEMA=postgres
+    #   - DEBUG_MODE=True
+
+    ports:
+      - "1987:8080"
